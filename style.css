@@ -28,7 +28,7 @@ div{
     gap: 30px;
 }
 
-ol{
+ol, ul{
     display: flex;
     flex-direction: column;
     margin: 16px 100px;
