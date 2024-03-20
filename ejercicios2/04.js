@@ -5,7 +5,7 @@ function calcularSilabas(palabra) {
     palabra = palabra.toLowerCase();
     
     const normal = /[aeiouáéíóú]/gi;
-    const diptongo = /[aeo][iu]|[iu][aeiou]/gi;
+    const diptongo = /[aeo][iu]|[iu][aeiouáéíóú]/gi;
     
 
     const coincidenciasn = palabra.match(normal);
