@@ -1,6 +1,8 @@
 // 4. Crea una función para calcular cuantas silabas tiene cada palabra, imprime el resultado
 // en la consola.
 
+
+
 function calcularSilabas(palabra) {
     palabra = palabra.toLowerCase();
     
